@@ -1,3 +1,63 @@
+        /* CSS for various sections */
+        header {
+            background-color: #0c0c0c;
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
 
+        nav {
+            display: flex;
+            padding: 0;
+            gap: 20px;
+            margin-top: auto;
+        }
+
+        nav a {
+            display: inline;
+            padding: 20px;
+            border-radius: 25px;
+            background: #21ad9a;
+        }
+
+        main {
+            background-color: #490b6d;
+            color: #ffffff;
+        }
+
+        section.content-container {
+            background-color: #00147a;
+            color: #ffffff;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        section.content-container:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        section.text-container {
+            flex: 1;
+            padding: 20px;
+        }
+
+        section.rounded-image-container {
+            flex: 1;
+            padding: 20px;
+            border-radius: 25px;
+            background: #21ad9a;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        section.text-container {
+            background-color: rgb(33, 40, 139);
+            font-style: oblique;
+        }
 
 
