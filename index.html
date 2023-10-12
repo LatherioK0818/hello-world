@@ -1,99 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Top Gaming Systems</title>
     <style>
+        /* CSS for various sections */
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            display: flex;
+            background-color: #0c0c0c;
+            color: #ffffff;
+            display: flex; 
             justify-content: space-between;
-            align-items: center;
-        }
-
-        .image-container {
-            display: flex;
-            align-items: center;
-            background-color: #f2f2f2;
             padding: 20px;
         }
-
-        .image-container img {
-            max-width: 50%;
-            height: auto;
+        nav{
+            display: flex;
+            padding: 0;
+            gap: 20px;
+            margin-top: auto;
+        }
+        nav a{
+            display: inline;
+        }
+        main {
+            background-color: #0d120f;
+            color: #ffffff;
         }
 
-        .image-text {
+        section.content-container {
+            background-color: #00147a;
+            color: #ffffff;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        section.content-container:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        section.text-container,
+        section.rounded-image-container {
             flex: 1;
             padding: 20px;
         }
 
-        .divider {
-            border: 1px solid #333;
-            width: 100%;
-            margin: 20px 0;
-        }
-    .divider {
-    background-image: url("https://www.leetdesk.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fleetdesk%2Fc5527f47-def9-433c-9cce-23f286dbfea2_Front.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C374%2C4000%2C2250%26w%3D1920%26h%3D1080&w=3840&q=75");
-    background-size: cover;
-    background-position: center;
-    height: 400px; /* Adjust the height as needed */
-            }
-        .footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
+        img {
+            max-width: 100%;
+            height: auto;
         }
     </style>
-    <title>Top Gaming Systems</title>
 </head>
 <body>
     <header>
         <h1>Top Gaming Systems</h1>
         <nav>
-            <a href="#">Link1</a>
+            <a href="#">Negin's Link</a>
             <a href="#">Link2</a>
         </nav>
     </header>
+    <section class="">
+        <img src="https://www.leetdesk.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fleetdesk%2Fc5527f47-def9-433c-9cce-23f286dbfea2_Front.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C374%2C4000%2C2250%26w%3D1920%26h%3D1080&w=3840&q=75" alt="Gaming setup"> 
+    </section>
+    
+    <img>
     <main>
-        </div>
-    </div>
-    <div class="divider">
-        <hr>
-    </div>
-    <div class="content-container">
-        <div class="text-container">
-            <p>The PS2 is often considered one of the greatest consoles due to its vast game library, including classics like Grand Theft Auto: San Andreas and Metal Gear Solid 3.</p>
-        </div>
-        <figure class="rounded-image-container"> 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/PS2-Versions.jpg
-            " alt="PS2 Image">
-        </figure>
-    </div>
-    <div class="content-container">
-        <div class="text-container">
-            <p>The NES is a pioneer in the gaming world and brought us iconic games like Super Mario Bros. and The Legend of Zelda.</p>
-        </div>
-        <figure class="rounded-image-container"> 
-            <img src="https://i.ebayimg.com/images/g/MQQAAOSwhJBjuXGT/s-l1600.jpg" alt="NES Image">
-        </figure>
-    </div>
-    <div class="content-container">
-        <div class="text-container">
-            <p>Known for its exceptional 2D graphics and classics like Super Mario World and The Legend of Zelda: A Link to the Past.</p>
-        </div>
-        <figure class="rounded-image-container"> 
-            <img src="https://i5.walmartimages.com/seo/Super-Nintendo-Entertainment-System-SNES-Classic-Mini-NTSC-Edition-Retro-System_50bf8e88-bda8-4413-a0b5-264c31db2fbc.09bfce3bedaf83053d544da2b650d5be.jpeg
-            " alt="SNES Image">
-        </figure>
-    </div>
+        <section class="content-container">
+            <section class="rounded-image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/PS2-Versions.jpg" alt="PS2 Image">
+            </section>
+            <section class="text-container">
+                <p>
+                    The PS2 is often considered one of the greatest consoles due to its vast game library, including
+                    classics like Grand Theft Auto: San Andreas and Metal Gear Solid 3. The PlayStation 2 (PS2) is a
+                    home video game console developed and marketed by Sony Interactive Entertainment. It was first
+                    released in Japan on 4 March 2000, in North America on 26 October 2000, in Europe on 24 November
+                    2000, and in Australia on 30 November 2000. It is the successor to the original PlayStation, as well
+                    as the second installment in the PlayStation brand of consoles. As a sixth-generation console, it
+                    competed with Nintendo's GameCube, Sega's Dreamcast, and Microsoft's Xbox. It is the best-selling
+                    video game console of all time, having sold over 155 million units worldwide. Announced in 1999,
+                    Sony began developing the console after the immense success of its predecessor. The highlight of the
+                    system was its Emotion Engine processor, co-developed by Sony and Toshiba, which was said to be more
+                    powerful than personal computers. The PS2 offered backward compatibility for its predecessor's
+                    DualShock controller, as well as its games.
+                </p>
+            </section>
+        </section>
+        <section class="divider">
+            <hr>
+        </section>
+        <section class="content-container">
+            <section class="text-container">
+                <p>
+                    The NES is a pioneer in the gaming world and brought us iconic games like Super Mario Bros. and The
+                    Legend of Zelda. The Nintendo Entertainment System (NES) is an 8-bit third-generation home video
+                    game console produced by Nintendo. It was first released in Japan in 1983 as the Family Computer
+                    (FC), commonly referred to as Famicom. It was redesigned to become the NES, which was released in
+                    American test markets on October 18, 1985, and was soon fully launched in North America and other
+                    countries. After developing several successful arcade games in the early 1980s such as Donkey Kong
+                    (1981), Nintendo planned to create a home video game console. Rejecting more complex proposals, the
+                    Nintendo president Hiroshi Yamauchi called for a simple, cheap console with games stored on
+                    cartridges. The controller design was reused from Nintendo's portable Game & Watch games. Nintendo
+                    released several add-ons, such as the NES Zapper light gun for shooting games like Duck Hunt.
+                </p>
+            </section>
+            <section class="rounded-image-container">
+                <img src="https://i.ebayimg.com/images/g/MQQAAOSwhJBjuXGT/s-l1600.jpg" alt="NES Image">
+            </section>
+        </section>
+        <section class="divider">
+            <hr>
+        </section>
+        <section class="content-container">
+            <section class="rounded-image-container">
+                <img src="https://i5.walmartimages.com/seo/Super-Nintendo-Entertainment-System-SNES-Classic-Mini-NTSC-Edition-Retro-System_50bf8e88-bda8-4413-a0b5-264c31db2fbc.09bfce3bedaf83053d544da2b650d5be.jpeg"
+                    alt="SNES Image">
+            </section>
+            <section class="text-container">
+                <p>
+                    The Super Nintendo Entertainment System, commonly shortened to Super Nintendo, Super NES, or SNES,
+                    is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and
+                    South Korea, 1991 in North America, 1992 in Europe and Oceania, and 1993 in South America. Known for
+                    its exceptional 2D graphics and classics like Super Mario World and The Legend of Zelda: A Link to
+                    the Past.
+                </p>
+            </section>
         </section>
     </main>
     <footer>
         <p style="text-align: center;">Latherio Kidd &copy; 2023</p>
     </footer>
 </body>
+
 </html>
