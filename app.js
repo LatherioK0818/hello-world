@@ -44,9 +44,9 @@ function giveRating() {
     // Ask for the user's rating
     let userNumber;
     do {
-        userNumber = prompt('What would you rate Sonic? Choose a number between 1-5. 1 being the lowest and 5 being the highest.');
+        userNumber = prompt('What would you rate Sonic? Choose a number between 1-3. 1 being the lowest and 5 being the highest.');
         userNumber = parseInt(userNumber);
-    } while (isNaN(userNumber) || userNumber < 1 || userNumber > 5);
+    } while (isNaN(userNumber) || userNumber < 1 || userNumber > 3);
 
     // Display the images based on the rating
     for (let n = 1; n <= userNumber; n++) {
