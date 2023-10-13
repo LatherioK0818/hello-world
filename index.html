@@ -3,96 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Top Gaming Systems</title>
-    <style>
-        /* CSS for various sections */
-        header {
-            background-color: #0c0c0c;
-            color: #ffffff;
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-        }
-
-        nav {
-            display: flex;
-            padding: 10px;
-            gap: 20px;
-            margin-top: auto;
-        }
-
-        nav a {
-            display: inline;
-            padding: 20px;
-            border-radius: 25px;
-            background: #6169db;
-        }
-        main {
-            background-color: #490b6d;
-            color: #ffffff;
-        }
-
-        section.content-container {
-            background-color: #00147a;
-            color: #ffffff;
-            width: 100%;
-            display: flex;
-            align-items: center;
-        }
-
-        section.content-container:nth-child(even) {
-            flex-direction: row-reverse;
-        }
-
-        section.text-container {
-            flex: 1;
-            padding: 20px;
-        }
-
-        section.rounded-image-container {
-            flex: 1;
-            padding: 20px;
-            border-radius: 25px;
-            background: #21ad9a;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        section.text-container {
-            background-color: rgb(33, 40, 139);
-            font-style: oblique;
-        }
-    </style>
 </head>
 <body>
     <header>
         <h1>Top Gaming Systems</h1>
-        <script>
+        <!-- <script>
             // Show a welcome alert
-            alert("Welcome to my page!");
-    
-            // Prompt the user for their favorite game
-            const promptAnswer = prompt('What is your favorite game?');
-    
-            // Log the user's response to the console
-            document.write('User\'s favorite game is: ' + promptAnswer);
-        </script>
-        <nav>
-            <a href="#">Negin's Link</a>
-            <a href="#">Link2</a>
-        </nav>
-    </header>
-    <section>
-        <img src="https://www.leetdesk.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fleetdesk%2Fc5527f47-def9-433c-9cce-23f286dbfea2_Front.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C374%2C4000%2C2250%26w%3D1920%26h%3D1080&w=3840&q=75" alt="Gaming setup">
-    </section>
-    <main>
-        <section class="content-container">
-            <section class="rounded-image-container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/PS2-Versions.jpg" alt="PS2 Image">
+            alert("Welcome to my page!"); 
+            askFavGame();
+            askSystem();
+            </script> -->
+            <nav>
+                <a href="#">Negin's Link</a>
+            </nav>
+        </header>
+        <section class="under-banner">
+            <img src="https://www.leetdesk.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fleetdesk%2Fc5527f47-def9-433c-9cce-23f286dbfea2_Front.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C374%2C4000%2C2250%26w%3D1920%26h%3D1080&w=3840&q=75"
+            alt="Gaming setup">
+        </section>
+        <Section id ="userAnswer">
+            <script src = "app.js"></script>
+        </Section>
+        <main>
+            <section class="content-container">
+                <section class="rounded-image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/PS2-Versions.jpg" alt="PS2 Image" id="PS2">
             </section>
             <section class="text-container">
                 <p>
@@ -157,4 +94,5 @@
         <p style="text-align: center;">Latherio Kidd &copy; 2023</p>
     </footer>
 </body>
+
 </html>
